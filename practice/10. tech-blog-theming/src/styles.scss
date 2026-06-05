@@ -1,10 +1,11 @@
 @use "common-buttons" as btn;
 @use "syntax-highlight" as stx;
 @use "theme";
+@use "levels";
 
 @include btn.go;
 @include stx.go;
-@include theme.color-system;
+@include theme.color-system(levels.$grey-levels, levels.$primary-levels, levels.$accent-levels);
 
 :root {
  
