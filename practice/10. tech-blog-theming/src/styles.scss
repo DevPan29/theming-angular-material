@@ -14,14 +14,14 @@
      oklch(0.80 0.25 100), 
     light);
   
-  // Shadows
+  // Shadows - System design token
   --shadow-light: rgba(0, 0, 0, 0.05);
   --shadow-medium: rgba(0, 0, 0, 0.1);
   --shadow-dark: rgba(0, 0, 0, 0.15);
 
 
 
-  // Special colors
+  // Special colors - Component design tokens
   --foreground-translucent: rgb(from var(--n-0)r g b / 0.6);
 }
 
